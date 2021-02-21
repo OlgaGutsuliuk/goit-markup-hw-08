@@ -1,0 +1,99 @@
+.paping-fon {
+  padding-bottom: 94px;
+}
+.what-doing {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: $primaryTextColor;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work .element {
+  width: 370px;
+}
+.element {
+  &:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+}
+.posicion-text {
+  position: relative;
+}
+.text-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 370px;
+  height: 70px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.paping-fon,
+.what-doing,
+.work {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .paping-fon {
+    padding-bottom: 94px;
+    display: block;
+  }
+  .what-doing {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: $primaryTextColor;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+  .work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .work .element {
+    width: 370px;
+  }
+  .element {
+    &:not(:nth-child(3n)) {
+      margin-right: 30px;
+    }
+  }
+  .posicion-text {
+    position: relative;
+  }
+  .text-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 370px;
+    height: 70px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}

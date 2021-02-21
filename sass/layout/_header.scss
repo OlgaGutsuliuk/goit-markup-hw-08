@@ -1,0 +1,133 @@
+/* Логотип */
+.page-header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+.one-line-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  font-weight: 700;
+  color: $primaryTextColor;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: $primaryTextColor;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.pats-logo {
+  color: $maineContactWhiteColor;
+}
+.accent {
+  color: $accentColor;
+}
+
+.site-nav {
+  .link {
+    display: block;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    color: $primaryTextColor;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: $accentColorTitle;
+    }
+  }
+}
+.site-nav .link.current {
+  position: relative;
+  color: $accentColorTitle;
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(33, 150, 243, 1);
+    border-radius: 2px;
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.site-nav {
+  margin-left: 93px;
+  display: flex;
+  .item {
+    margin-right: 50px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+/* Контакты шапки */
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contacts .item {
+  margin-right: 50px;
+}
+.contacts .item:last-child {
+  margin-right: 0px;
+}
+.contacts .link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: $titleTextColor;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.messege {
+  margin-right: 30px;
+}
+
+.lin {
+  display: flex;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: $primaryTextColor;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: rgba(117, 117, 117, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: rgba(33, 150, 243, 1);
+  }
+}
+.icon-header {
+  margin-right: 10px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .lin:hover &,
+  .lin:focus & {
+    fill: $accentColorTitle;
+  }
+}

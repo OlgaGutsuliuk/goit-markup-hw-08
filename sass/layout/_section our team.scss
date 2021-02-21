@@ -1,0 +1,127 @@
+.job-teem {
+  // padding-bottom: 94px;
+  // padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.our-team {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: $primaryTextColor;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+.photo-team {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+}
+.team-element {
+  // &:not(:nth-child(4n)) {
+  //   margin-right: 30px;
+  // }
+  width: 100%;
+}
+.card-image {
+  width: 100%;
+}
+
+.team-element {
+  &:not(:nth-child(4n)) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    &:not(:nth-child(4n)) {
+      margin-bottom: unset;
+    }
+    width: 354px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 270px;
+  }
+}
+
+/* Оформление картинки  */
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 32px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.rabotnichki {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: $primaryTextColor;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.profi {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: $titleTextColor;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.iconka {
+  display: flex;
+  justify-content: center;
+}
+.width-icon {
+  margin-right: 10px;
+}
+.width-icon {
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+.width-icon {
+  width: 44px;
+  height: 44px;
+}
+.clic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+}
+.icon-symbol {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .clic:hover &,
+  .clic:focus & {
+    fill: #ffffff;
+  }
+}

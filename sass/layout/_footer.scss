@@ -1,0 +1,97 @@
+.finish {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-conect {
+  width: 100%;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      flex-wrap: nowrap;
+      align-content: flex-start;
+      justify-content: space-around;
+      text-align: start;
+    }
+  }
+}
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;
+  color: $primaryTextColor;
+  font-family: Raleway, sans-serif;
+  // font-size: 26px;
+  // line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+.contact-place {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  // margin-bottom: 9px;
+  margin-bottom: 8px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
+}
+.contacts-footer .link {
+  display: block;
+  color: $contactWhiteColor;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 9px;
+  margin-bottom: 8px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
+}
+.link-non {
+  color: $contactWhiteColor;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.conect {
+  font-family: Roboto;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.iconka-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-fon-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.with-fon-icon {
+  fill: #ffffff;
+}
+footer {
+  background: #2f303a;
+}
+.adress-phone {
+  margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+  }
+}

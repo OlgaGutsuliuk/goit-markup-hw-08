@@ -1,0 +1,100 @@
+.content-detal {
+  // padding-top: 94px;
+  // padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.content {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+}
+.content-element {
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    width: 100%;
+  }
+  &::before {
+    display: block;
+    height: 120px;
+    content: '';
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(245, 244, 250, 1);
+    padding: 25px 100px;
+    margin-bottom: 30px;
+  }
+}
+.content-element {
+  &:not(:nth-child(4n)) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    &:not(:nth-child(4n)) {
+      margin-bottom: unset;
+    }
+    width: 354px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+
+.content .title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: $primaryTextColor;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+.content .subtitle {
+  margin-top: 0;
+  color: $titleTextColor;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Задаю свг  */
+.antenna {
+  &::before {
+    background-image: url('../img/antenna.svg');
+  }
+}
+
+.clock {
+  &::before {
+    background-image: url('../img/clock.svg');
+  }
+}
+.diagram {
+  &::before {
+    background-image: url('../img/diagram.svg');
+  }
+}
+.astronaut {
+  &::before {
+    background-image: url('../img/astronaut.svg');
+  }
+}
+
+.fon {
+  &:nth-child(4n) {
+    background-color: rgba(245, 244, 250, 1);
+  }
+}
