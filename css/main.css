@@ -248,6 +248,11 @@ body {
   fill: #2196f3;
 }
 
+.site-nav,
+.contacts {
+  display: none;
+}
+
 .hero {
   padding-top: 118px;
   padding-bottom: 118px;
@@ -1485,13 +1490,13 @@ footer {
 }
 
 .menu-mobile {
-  padding: 48px 83px 48px 40px;
+  padding: 48px 70px 48px 40px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #f7e8e8;
+  background-color: white;
 }
 
 .menu-mobile.is-closed {
@@ -1562,5 +1567,49 @@ footer {
   line-height: 1.22;
   color: #2196F3;
   letter-spacing: 0.02em;
+}
+
+.social-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-network .title {
+  margin-right: 10px;
+}
+
+.social-network .title:last-child {
+  margin-bottom: 0px;
+}
+
+.wand {
+  color: gray;
+  margin-left: 10px;
+}
+
+.min-menu {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+.min-menu:hover .hover-min,
+.min-menu:focus .hover-min {
+  fill: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */

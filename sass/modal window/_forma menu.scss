@@ -7,13 +7,13 @@
     background-color: transparent;
 }
 .menu-mobile {
-   padding: 48px 83px 48px 40px;
+   padding: 48px 70px 48px 40px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgb(247, 232, 232);
+    background-color: white;
   }
   .menu-mobile.is-closed{
 display: none;
@@ -79,5 +79,38 @@ display: none;
     line-height: 1.22;
     color:#2196F3;
     letter-spacing: 0.02em;
+  
   }
+  .social-network {
+    display: flex;
+    align-items: center;
+  }
+  .social-network{
+   .title{
+    margin-right: 10px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  } 
+  }
+  .wand{
+    color: gray;
+    margin-left: 10px;
+  }
+  .min-menu {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    &:hover .hover-min,
+    &:focus .hover-min {
+      fill: $accentColor;
+    }
+  }
+  
+  
 
