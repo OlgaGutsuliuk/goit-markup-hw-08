@@ -1,6 +1,5 @@
 /* Логотип */
 .page-header {
-  position: relative;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 .one-line-header {
@@ -9,7 +8,6 @@
   justify-content: space-between;
 }
 .logo {
-  display: none;
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -133,3 +131,4 @@
     fill: $accentColorTitle;
   }
 }
+                                      
