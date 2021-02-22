@@ -50,11 +50,21 @@
             </ul>
 
         </div>
-        <button class="menu-button">
+        <button class="menu-button"data-menu-button>
             <svg class="img-button" width="20" height="20">
                 <use href="./img/symbol-defs.svg#icon-menu_24px"></use>
             </svg>
         </button>
+        <div class="backdrop is-hidden" data-menu>
+            <div class="modal">
+                <div class="button-style">
+                    <button class="button-low" data-menu-close>
+                        <svg class="hover-x" width="18" height="18">
+                            <use href="./img/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+
+                        </svg>
+                    </button>
+                </div>
     </header>
 
     <!-- Основное изложение сайта -->
@@ -464,6 +474,7 @@
     </footer>
     </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/modal-menu.js"></script>
 </body>
 
 </html>
