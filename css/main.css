@@ -80,6 +80,7 @@ body {
 /* Логотип */
 .page-header {
   border-bottom: 1px solid #ececec;
+  position: relative;
 }
 
 .one-line-header {
@@ -169,7 +170,6 @@ body {
 }
 
 .site-nav {
-  display: none;
   margin-left: 93px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1472,5 +1472,95 @@ footer {
   .img-portfolio {
     width: 354px;
   }
+}
+
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-mobile {
+  padding: 48px 83px 48px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #f7e8e8;
+}
+
+.menu-mobile.is-closed {
+  display: none;
+}
+
+.mobile-nav .link {
+  display: block;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  color: #212121;
+  letter-spacing: 0.02em;
+}
+
+.mobile-nav .link:hover, .mobile-nav .link:focus {
+  color: #2196f3;
+}
+
+.mobile-nav .link.current {
+  color: #2196F3;
+}
+
+.mobile-nav {
+  margin-bottom: 302px;
+}
+
+.mobile-nav .item {
+  margin-bottom: 32px;
+}
+
+.mobile-nav .item:last-child {
+  margin-bottom: 0px;
+}
+
+.post-lin {
+  display: block;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  color: #2196F3;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+}
+
+.post-lin:hover, .post-lin:focus {
+  color: #2196f3;
+}
+
+.number-lin {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #757575;
+  letter-spacing: 0.02em;
+  margin-bottom: 64px;
+}
+
+.number-lin:hover, .number-lin:focus {
+  color: #2196f3;
+}
+
+.social-network .post {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #2196F3;
+  letter-spacing: 0.02em;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1303,6 +1303,21 @@ footer {
   }
 }
 
+.backdrop {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(197, 149, 149, 0.2);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .menu-button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1311,5 +1326,19 @@ footer {
   padding: 0;
   border: none;
   background-color: transparent;
+}
+
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  min-width: 450px;
+  min-height: 609px;
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */

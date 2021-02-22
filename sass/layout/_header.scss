@@ -1,6 +1,7 @@
 /* Логотип */
 .page-header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
+  position: relative;
 }
 .one-line-header {
   align-items: center;
@@ -10,7 +11,7 @@
 .logo {
   display: block;
   padding-top: 24px;
-  padding-bottom: 25px;
+  padding-bottom: 25px; 
   font-weight: 700;
   color: $primaryTextColor;
   font-family: Raleway, sans-serif;
@@ -131,4 +132,9 @@
     fill: $accentColorTitle;
   }
 }
-                                      
+// .site-nav,
+// .contacts{
+//   display: none;
+// }  
+
+                               
