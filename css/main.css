@@ -1544,7 +1544,7 @@ footer {
 .menu-mobile {
   position: fixed;
   padding: 48px 70px 48px 40px;
-  position: absolute;
+  z-index: 2;
   top: 0;
   left: 0;
   width: 100%;
