@@ -1427,6 +1427,12 @@ footer {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .much-photo {
+    width: 370px;
+  }
+}
+
 .obnulit-sulky {
   display: block;
 }
@@ -1482,6 +1488,12 @@ footer {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .podpis-photo {
+    width: 370px;
+  }
+}
+
 .img-portfolio {
   width: 100%;
 }
@@ -1489,6 +1501,12 @@ footer {
 @media screen and (min-width: 768px) {
   .img-portfolio {
     width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .img-portfolio {
+    width: 370px;
   }
 }
 
